@@ -1,0 +1,127 @@
+/* Fonts */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+
+h1, h2 {
+    font-family: 'Staatliches', cursive;
+}
+
+h3 {
+    font-family: 'Bebas Neue', cursive;
+}
+
+/* Navigation */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(61, 38, 61);
+  }
+  
+nav li {
+    float: left;
+  }
+  
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+nav li a:hover:not(.active) {
+    background-color: rgb(61, 38, 61);
+  }
+  
+.active {
+    background-color: #4CAF50;
+  }
+
+  /* Home Image */
+  #home_image {
+    text-align: center;
+    background-color: rgb(107, 65, 107);
+  }
+
+  /* Tagline */
+  #tagline {
+    text-align: center;
+    background-color: rgb(180, 116, 180);
+  }
+
+  div#tagline h1 {
+    margin: 0px;
+    padding: 10px;
+  }
+
+  /* Sections */
+  section {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  section#intro {
+    background-color: rgb(224, 166, 224);
+    margin: 0px;
+    padding: 10px;
+  }
+
+  /* Products */
+  article {
+    float: left;
+    width: 20%;
+    border: 1px solid #000000;
+    margin: 5px;
+    padding: 40px;
+    height: 200px;
+    background-color: rgb(105, 63, 105);
+  }
+
+  div.product_image {
+    width: 200px;
+    height: 120px;
+    overflow: hidden;
+    border: 1px solid #000000;
+    margin-bottom: 5px;
+  }
+
+  div.EnterNorthHouse {
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    border: 1px solid #000000;
+    margin-bottom: 5px;
+  }
+
+  div.NorthLivingRoom {
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    border: 1px solid #000000;
+    margin-bottom: 5px;
+  }
+
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 5px;
+  }
+
+  #start{
+    text-align: center;
+  }
+
+  #enter{
+    text-align: center;
+  }
+  
+
