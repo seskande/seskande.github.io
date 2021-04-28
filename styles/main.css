@@ -18,7 +18,7 @@ nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(61, 38, 61);
+    background-color: rgb(141, 141, 141);
   }
   
 nav li {
@@ -34,23 +34,23 @@ nav li a {
   }
   
 nav li a:hover:not(.active) {
-    background-color: rgb(61, 38, 61);
+    background-color: whitesmoke;
   }
   
 .active {
-    background-color: #4CAF50;
+    background-color: rgb(88, 88, 88);
   }
 
   /* Home Image */
   #home_image {
     text-align: center;
-    background-color: rgb(107, 65, 107);
+    background-color: whitesmoke;
   }
 
   /* Tagline */
   #tagline {
     text-align: center;
-    background-color: rgb(180, 116, 180);
+    background-color:  whitesmoke;
   }
 
   div#tagline h1 {
@@ -65,7 +65,7 @@ nav li a:hover:not(.active) {
   }
 
   section#intro {
-    background-color: rgb(224, 166, 224);
+    background-color:  whitesmoke;
     margin: 0px;
     padding: 10px;
   }
@@ -78,7 +78,7 @@ nav li a:hover:not(.active) {
     margin: 5px;
     padding: 40px;
     height: 200px;
-    background-color: rgb(105, 63, 105);
+    background-color:  whitesmoke;
   }
 
   div.product_image {
