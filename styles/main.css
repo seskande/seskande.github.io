@@ -89,6 +89,12 @@ nav li a:hover:not(.active) {
     margin-bottom: 5px;
   }
 
+  /* Home Image */
+  #north_image {
+      text-align: right;
+      background-color: whitesmoke;
+    }
+
   div.EnterNorthHouse {
     width: 300px;
     height: 200px;
@@ -103,6 +109,11 @@ nav li a:hover:not(.active) {
     overflow: hidden;
     border: 1px solid #000000;
     margin-bottom: 5px;
+  }
+
+  #community {
+    text-align: center;
+    width: 150px;
   }
 
   footer {
