@@ -89,11 +89,17 @@ nav li a:hover:not(.active) {
     margin-bottom: 5px;
   }
 
-  /* Home Image */
-  #north_image {
-      text-align: right;
-      background-color: whitesmoke;
+  div.welcome_north {
+    margin-top: 20px;
+    text-align: center;
     }
+ 
+  div.enter{
+    position: absolute;
+    right:57%; 
+    left: 43%;
+    bottom: 40px;
+  }
 
   div.EnterNorthHouse {
     width: 300px;
@@ -131,8 +137,5 @@ nav li a:hover:not(.active) {
     text-align: center;
   }
 
-  #enter{
-    text-align: center;
-  }
   
 
