@@ -16,8 +16,8 @@
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="north.html">North Side</a></li>
-                    <li><a class = "active" href = "northroom.html">My Room</a></li>
+                    <li><a href="north_after3.html">North Side</a></li>
+                    <li><a class = "active" href = "northroomday3.html">My Room</a></li>
                 </ul>
             </nav>
  
@@ -25,12 +25,39 @@
             </div>
         </header>
 
+        <section id="Audio">
+            <audio id="audio">
+                <source src="audio/TV interview .m4a" type="audio/mpeg">
+            </audio>
+              
+            <p>Click to hear the news.</p>
+              
+            <button onclick="playAudio()" type="button">Play Audio</button>
+            <button onclick="pauseAudio()" type="button">Pause Audio</button> 
+            
+            <script>
+              var x = document.getElementById("audio"); 
+              
+              function playAudio() { 
+                x.play(); 
+              } 
+              
+              function pauseAudio() { 
+                x.pause(); 
+              } 
+            </script>
+
+        </section>
+
+        <section>
+            <img src="images/5 (1).png", height="97%" width="97%">
+        </section>
 
         
         <section>
             <div id="return">
              <a href = "northroomday4.html">
-                <img src = "images/return.jpeg" height=100>
+                <img src = "images/Done Button.png" height="25%" width="25%">
     
              </div>
         </section>
