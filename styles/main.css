@@ -137,7 +137,7 @@ nav li a:hover:not(.active) {
     padding: 5px;
   }
 
-  #start{
+  div.start{
     text-align: center;
   }
 
