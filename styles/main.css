@@ -4,12 +4,14 @@ body {
     margin: 0px;
 }
 
-h1, h2 {
+h1 {
     font-family: 'Staatliches', cursive;
+    text-align: center;
 }
 
-h3 {
+h2 {
     font-family: 'Bebas Neue', cursive;
+    text-align: center;
 }
 
 /* Navigation */
@@ -73,10 +75,10 @@ nav li a:hover:not(.active) {
   /* Products */
   article {
     float: left;
-    width: 35%;
+    width: 46%;
     margin: 5px;
     padding: 15px;
-    height: 350px;
+    height: 400px;
     background-color:  whitesmoke;
   }
 
@@ -88,6 +90,14 @@ nav li a:hover:not(.active) {
     margin-bottom: 5px;
   }
 
+  div.north {
+    text-align: center;
+    }
+  
+  div.south {
+      text-align: center;
+    }
+   
   div.welcome_north {
     margin-top: 20px;
     text-align: center;
@@ -121,17 +131,6 @@ nav li a:hover:not(.active) {
   #community {
     text-align: center;
     width: 150px;
-  }
-
-  footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    background-color: #000000;
-    color: #ffffff;
-    padding: 5px;
   }
 
   div.start{
