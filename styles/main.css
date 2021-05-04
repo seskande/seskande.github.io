@@ -94,10 +94,7 @@ nav li a:hover:not(.active) {
     }
  
   div.enter{
-    position: absolute;
-    right:57%; 
-    left: 43%;
-    bottom: 40px;
+    text-align: center;
   }
 
   div.EnterNorthHouse {
