@@ -125,7 +125,14 @@ nav li a:hover:not(.active) {
 
   #myCarousel {
     width: 80%;
-    margin:auto
+    margin: auto;
+  }
+
+  #myCarousel1 {
+    width: 50%;
+    position: absolute;
+    left: 25%;
+    top: 25%;
   }
 
   #community {
